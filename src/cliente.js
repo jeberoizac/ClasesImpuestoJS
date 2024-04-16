@@ -1,6 +1,6 @@
-import Impuesto from "./impuesto";
+//import Impuesto from './impuesto.js';
 
-export default class Cliente{
+export class Cliente{
 
   constructor(nombre){
   this._nombre = nombre;
