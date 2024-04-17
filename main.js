@@ -1,16 +1,15 @@
 // Importar funciones del módulo de operaciones
-//import { calcularImpuesto } from './src/cliente';
+
 import { Cliente } from './src/cliente.js';
-import Impuesto from './src/impuesto.js';
 
 // Realizar operaciones
-let cl1 = new Cliente('pedro');
-console.log(cl1.nombre);
+let cl1 = new Cliente('Pedro');
+//cl1.calcularImpuesto(500,50);
 
-//cl1.calcularImpuesto(2000, 200);
+
+
 
 // Mostrar resultados
-//console.log('Resultado de :', impuestoPagar);
-//console.log('Resultado de la resta:', resultadoResta);
+console.log(`EL Cliente : ${cl1._nombre} debe impuesto por : $ ${cl1.calcularImpuesto(5000,200)}`);
 
-  console.log("adios..");
+
